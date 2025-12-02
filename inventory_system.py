@@ -86,7 +86,7 @@ def count_item(character, item_id):
     # Use list.count() method
     item_count = 0
     inventory = character.get('inventory', [])
-    for x of item_id in inventory:
+    for x in item_id in inventory:
         item_count += 1
     return item_count
     

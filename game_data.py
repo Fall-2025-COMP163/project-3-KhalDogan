@@ -50,7 +50,7 @@ def load_quests(filename="data/quests.txt"):
         "required_level": 1,
         "prerequisite": "NONE"
     }
-        if CorruptedDataError:
+    if CorruptedDataError:
         raise CorruptedDataError
     elif invalid_format:
         raise InvalidDataFormatError
