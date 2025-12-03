@@ -184,7 +184,7 @@ def equip_weapon(character, item_id, item_data):
     character["equipped_weapon"] = item_id
     inventory.remove(item_id)
 
-    return f"Equipped weapon {item_data['name']} (+{value} {stat})."
+    return f"Equipped weapon {item_id} (+{value} {stat})."
 
 
 def equip_armor(character, item_id, item_data):
